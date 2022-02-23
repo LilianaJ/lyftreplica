@@ -8,8 +8,21 @@
 
 
 
+h1{
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 92px;
+}
 
 
+.hero-section{
+    background-color: transparent;
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
 .hero-image{
     display: block;
     position: relative;
@@ -18,4 +31,5 @@
 .hero-text{
     position: absolute;
     left: 65%;
+    bottom: 50%;
 }
