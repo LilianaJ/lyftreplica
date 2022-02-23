@@ -1,8 +1,8 @@
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr 3fr ;
     gap: 5px;
-    background-color: #2196F3;
+    background-color:#ffff;
     padding: 2px;
     /* height: 81px; */
 }
@@ -14,6 +14,14 @@
   }
 
 
+
+
+
+
+
+
+
+
 h1{
     font-size: 80px;
     font-weight: 600;
@@ -23,11 +31,6 @@ h1{
 body{
     font-weight: 400;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
-
 
 
 .hero-section{
@@ -54,11 +57,4 @@ a{
 .driver-section{
     background-color: #f4f4f9;
     display: block;
-    position: relative;
 }
-.driver-image{
-    display: flex;
-    position: relative;
-    left: 50%;
-}
-
