@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-image{
+    display: block;
+    position: relative;
+}
+
+.hero-text{
+    position: absolute;
+    left: 65%;
+}
